@@ -1,0 +1,10 @@
+.loginPageHeader {
+  color: #214b7f;
+}
+.admin-form .switch-primary > input:checked + label {
+  background: #214b7f;
+  border-color: #214b7f;
+}
+.admin-form .btn-primary {
+  background-color: #214b7f;
+}
