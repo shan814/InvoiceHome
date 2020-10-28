@@ -377,6 +377,23 @@ div.switch-to span {
   color: rgb(255, 153, 0) !important;
 }
 
+a#save-invoice {
+  color: black !important;
+  font-size: 13px;
+}
+
+#invoice_items_attributes_0_tax_rate_name,
+#add-saved-item,
+#add-item,
+.btn-lg,
+.btn-gold {
+  background-color: white !important;
+}
+
+.done {
+  color: #fff !important;
+}
+
 /* CSS edited by Mr Anonymous ends here */
 button {
   overflow: visible;
@@ -10832,7 +10849,7 @@ a.currency-formats {
 }
 div.card {
   border: 1px solid #e0e0e0;
-  background-color: #e2f3fe !important;
+  background-color: #fff !important;
   padding: 3px 5px 10px 5px;
 }
 .card-tabs > li > a:hover {
@@ -10933,10 +10950,10 @@ table.emails a:hover {
   background-color: #525246 !important;
 }
 .btn-gold {
-  background-color: #ffe978 !important;
+  background-color: #fff !important;
 }
 .btn-gold:hover {
-  background-color: #ffe13c !important;
+  background-color: #c4b45c !important;
 }
 .orange {
   color: orange !important;
@@ -10948,7 +10965,7 @@ table.emails a:hover {
 a#save-invoice {
   color: white;
   background-color: #468ecb;
-  border: 1px solid #468ecb;
+  border: 1px solid #ddd;
 }
 a#save-invoice:hover {
   background-color: #337ab7;
