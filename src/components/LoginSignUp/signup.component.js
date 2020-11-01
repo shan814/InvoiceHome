@@ -1,13 +1,32 @@
 import React, { Component } from "react";
+import "./SignUp.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-export default class Login extends Component {
+export default class SignUp extends Component {
   render() {
     return (
       <div className="auth-wrapper">
         <div className="auth-inner">
           <form>
-            <h3>Sign In</h3>
+            <h3>Sign Up</h3>
+
+            <div className="form-group">
+              <label>First name</label>
+              <input
+                type="text"
+                className="form-control"
+                placeholder="First name"
+              />
+            </div>
+
+            <div className="form-group">
+              <label>Last name</label>
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Last name"
+              />
+            </div>
 
             <div className="form-group">
               <label>Email address</label>
@@ -27,25 +46,16 @@ export default class Login extends Component {
               />
             </div>
 
-            <div className="form-group">
-              <div className="custom-control custom-checkbox">
-                <input
-                  type="checkbox"
-                  className="custom-control-input"
-                  id="customCheck1"
-                />
-                <label className="custom-control-label" htmlFor="customCheck1">
-                  Remember me
-                </label>
-              </div>
-            </div>
             <Link className="nav-link" to={"/invoice-details"}>
-              <button type="submit" className="btn btn-primary btn-block">
-                Submit
+              <button
+                type="submit"
+                className="btn btn-primary signUp-submit-btn"
+              >
+                Sign Up
               </button>
             </Link>
             <p className="forgot-password text-right">
-              Forgot <a href="#">password?</a>
+              Already registered <a href="#">sign in?</a>
             </p>
           </form>
         </div>

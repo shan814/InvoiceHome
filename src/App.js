@@ -3,8 +3,8 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-import Login from "./components/login.component";
-import SignUp from "./components/signup.component";
+import Login from "./components/LoginSignUp/login.component";
+import SignUp from "./components/LoginSignUp/signup.component";
 import Home from "./pages/Home";
 import CreateInvoice from "./pages/CreateInvoice";
 import Header from "./components/Header";

@@ -72,7 +72,11 @@ class HeaderNew extends Component {
           </DropdownButton> */}
 
           <Dropdown>
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
+            <Dropdown.Toggle
+              variant="success"
+              id="dropdown-basic"
+              className=" btn-primary"
+            >
               Language and Settings
             </Dropdown.Toggle>
             <Dropdown.Menu>

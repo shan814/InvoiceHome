@@ -9,25 +9,25 @@ class ChangePassword extends Component {
             <div className="col-xs-12 col-md-10 col-md-offset-1">
               <ul className="nav nav-tabs card-tabs medium">
                 <li className>
-                  <a href="/">
+                  <a>
                     <i className="fa fa-fw fa-list-ul green" />
                     &nbsp;My Invoices
                   </a>
                 </li>
                 <li className>
-                  <a href="/customers">
+                  <a>
                     <i className="fa fa-fw fa-user grabber" />
                     &nbsp;My Customers
                   </a>
                 </li>
                 <li className>
-                  <a href="/reports">
+                  <a>
                     <i className="fa fa-calendar orange fa-fw" />
                     &nbsp;My Reports
                   </a>
                 </li>
                 <li className="active">
-                  <a href="/">
+                  <a>
                     Change Password
                     <i
                       className="fa fa-times"
@@ -113,9 +113,7 @@ class ChangePassword extends Component {
                         data-disable-with="Update"
                       />
                       &nbsp;&nbsp;&nbsp;or&nbsp;&nbsp;
-                      <a className="underline" href="/">
-                        Cancel
-                      </a>
+                      <a className="underline">Cancel</a>
                     </div>
                   </div>
                 </form>
