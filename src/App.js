@@ -40,6 +40,7 @@ import LanguageAndRegion from "./components/settings/LanguageAndRegion";
 import ChangePassword from "./components/settings/ChangePassowrd";
 import EmailReports from "./components/settings/EmailReports";
 import LoginForm from "./components/LoginSignUp/LoginForm";
+import Header1 from "./components/Header1";
 
 function App() {
   return (
@@ -67,9 +68,12 @@ function App() {
           </div>
         </nav> */}
         {/* <Header /> */}
-        <div className="topnav">
+
+        {/* <div className="topnav">
           <HeaderNew />
-        </div>
+        </div> */}
+
+        <Header1 />
 
         <Switch>
           <Route exact path="/" component={Home} />
