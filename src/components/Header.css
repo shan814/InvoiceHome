@@ -64,6 +64,7 @@ code,
     rgba(143, 172, 230, 1) 0%,
     rgba(36, 82, 181, 1) 100%
   ) !important;
+
   /* background-color: var(--primary-color); */
   color: #fff;
   height: 70px;
@@ -89,8 +90,32 @@ code,
 
 /* Showcase */
 
+.class-row {
+  width: 100%;
+  position: relative;
+}
+
+.class-logo {
+  max-width: 100px;
+}
+
+.class-right {
+  max-width: 300px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin-top: 7px;
+}
+
+.class-dropdown {
+  height: 31px;
+  font-size: 13px;
+  border: 0px;
+  padding-top: 3px;
+}
+
 /* Mobile */
-@media (max-width: 500px) {
+@media (max-width: 100%) {
   .navbar {
     height: 110px;
   }
