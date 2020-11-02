@@ -5,11 +5,11 @@ import { Dropdown, MenuItem, DropdownButton } from "react-bootstrap";
 
 export default function Header1() {
   return (
-    <div class="navbar">
-      <div class="container-fluid">
+    <div className="navbar">
+      <div className="container-fluid">
         <div className="row class-row">
           <div className="col-md-3 class-logo">
-            <h1 class="logo">Logo</h1>
+            <h1 className="logo">Logo</h1>
           </div>
 
           <div className="col-md-3 class-right">
