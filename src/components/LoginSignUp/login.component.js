@@ -51,6 +51,11 @@ export default class Login extends Component {
         Forgot Password?
     </a>
     </Link>
+    <Link to={"/sign-up"}>
+    <a href="javascript:void(0);" class="forget-btn" title="Sign up?">
+        <span className="already">Don't have an account? </span>Sign up?
+    </a>
+    </Link>
 </form>
             </div>
         </div>

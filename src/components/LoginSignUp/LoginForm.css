@@ -245,3 +245,7 @@ a.forget-btn {
   letter-spacing: 0.5px;
   font-weight: 500;
 }
+.already,
+.already:hover {
+  text-decoration: none !important;
+}

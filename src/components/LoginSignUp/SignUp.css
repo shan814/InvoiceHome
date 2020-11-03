@@ -229,6 +229,7 @@ a.forget-btn {
   font-weight: 500;
 }
 
-a span.already:hover {
-  text-decoration-style: none;
+.already,
+.already:hover {
+  text-decoration-style: none !important;
 }
