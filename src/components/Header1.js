@@ -21,12 +21,12 @@ export default function Header1() {
               <ul className="nav navbar-nav navbar-right">
                 <li className="drop">Language and Settings<span className="caret" />
                   <ul>
-                    <li><a href="/">Arabic</a></li>
-                    <li><a href="/">English</a></li>
-                    <li><a href="/">Change Password</a></li>
-                    <li><a href="/">Email Reports</a></li>
-                    <li><a href="/">My Name and Email</a></li>
-                    <li><a href="/">Signout</a></li>
+                    <li><Link to="/language-region">Arabic</Link></li>
+                    <li><Link to="/language-region">English</Link></li>
+                    <li><Link to="/change-password">Change Password</Link></li>
+                    <li><Link to="/email-reports">Email Reports</Link></li>
+                    <li><Link to="/name-email">My Name and Email</Link></li>
+                    <li><Link to="/login-form">Signout</Link></li>
                   </ul>
                 </li>
                 <li className><a href="/sign-in" className="login">Sign in</a></li>

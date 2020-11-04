@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./settings.css"; 
 class LanguageAndRegion extends Component {
   state = {};
   render() {
@@ -406,7 +407,7 @@ class LanguageAndRegion extends Component {
                         type="submit"
                         name="commit"
                         defaultValue="Save"
-                        className="btn btn-primary btn-lg"
+                        className="btn btn-primary btn-lg submit"
                         data-disable-with="Save"
                       />
                       &nbsp;&nbsp;&nbsp;or&nbsp;&nbsp;

@@ -354,7 +354,7 @@ a.currency-formats {
 }
 
 ul.nav-tabs > li > a > b {
-  color: black;
+  color: #2654b6;
 }
 
 ul.nav-tabs > li > a {
@@ -3271,7 +3271,7 @@ textarea.form-group-lg .form-control {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373;
+  color: #fff;
 }
 @media (min-width: 768px) {
   .form-inline .form-group {
@@ -10860,7 +10860,7 @@ div.card {
   border: 1px solid #ddd;
   border-bottom: 1px solid white;
   cursor: pointer !important;
-  color: black;
+  color: #2654b6;
 }
 .nav-tabs > li > a:hover {
   border: 1px solid #ddd;
@@ -10884,7 +10884,7 @@ ul.card-tabs > li.active a {
   border-bottom: 1px solid #e2f3fe !important;
 }
 ul.nav-tabs > li > a {
-  color: black;
+  color: #2654b6;
   background-color: #ffffc4;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
