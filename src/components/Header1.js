@@ -26,7 +26,7 @@ export default function Header1() {
                     <li><Link to="/change-password">Change Password</Link></li>
                     <li><Link to="/email-reports">Email Reports</Link></li>
                     <li><Link to="/name-email">My Name and Email</Link></li>
-                    <li><Link to="/login-form">Signout</Link></li>
+                    <li><Link to="/sign-in">Signout</Link></li>
                   </ul>
                 </li>
                 <li className><a href="/sign-in" className="login">Sign in</a></li>
