@@ -105,7 +105,7 @@ class NameAndEmail extends Component {
                         type="submit"
                         name="commit"
                         defaultValue="Save"
-                        className="btn btn-primary btn-lg"
+                        className="btn btn-primary btn-lg submit"
                         data-disable-with="Save"
                       />
                       &nbsp;&nbsp;&nbsp;or&nbsp;&nbsp;

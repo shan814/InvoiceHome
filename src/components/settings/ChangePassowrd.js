@@ -109,7 +109,7 @@ class ChangePassword extends Component {
                         type="submit"
                         name="commit"
                         defaultValue="Update"
-                        className="btn btn-primary btn-lg"
+                        className="btn btn-primary btn-lg submit"
                         data-disable-with="Update"
                       />
                       &nbsp;&nbsp;&nbsp;or&nbsp;&nbsp;
